@@ -245,7 +245,7 @@ function htmlpages_auto_post( $filepath, $filename, $options = [] ) {
     // 默认选项
     $defaults = [
         'post_type'      => 'post',
-        'content_display' => 'link',
+        'content_display' => 'iframe',
         'post_category'  => [],
     ];
     $opts = wp_parse_args( $options, $defaults );
