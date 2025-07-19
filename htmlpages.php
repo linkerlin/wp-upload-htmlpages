@@ -125,8 +125,8 @@ function htmlpages_admin_page() {
                         <th scope="row"><label for="htmlpages_content_display">内容显示方式</label></th>
                         <td>
                             <select name="htmlpages_content_display" id="htmlpages_content_display">
-                                <option value="link" selected="selected">链接</option>
-                                <option value="iframe">iFrame 嵌入</option>
+                                <option value="link">链接</option>
+                                <option value="iframe" selected="selected">iFrame 嵌入</option>
                             </select>
                             <p class="description">自动创建的文章/页面内容是显示一个可点击的URL，还是直接嵌入整个HTML页面。</p>
                         </td>
